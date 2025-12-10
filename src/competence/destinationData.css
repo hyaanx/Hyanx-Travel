@@ -1,0 +1,36 @@
+@media (max-width: 1125px) {
+  .first-des {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .des-text {
+    width: 80% !important;
+  }
+
+  .des-images {
+    justify-content: center;
+  }
+
+  .des-images > div { 
+    width: 370px !important;
+    height: 250px !important;
+  }
+
+  .des-images .img-2 {
+    top: 20px !important;
+  }
+}
+@media (max-width: 800px) {
+
+
+      .des-images > div { 
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  .des-text {
+    width: 100% !important;
+  }
+
+}

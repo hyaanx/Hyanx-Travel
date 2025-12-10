@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+  .links ul {
+    position: absolute;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    width: 95%;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition: all 0.3s linear;
+    li {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+}
