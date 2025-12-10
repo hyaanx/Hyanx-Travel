@@ -7,7 +7,7 @@ import Service from './routes/Service.jsx';
 import Contact from './routes/Contact.jsx';
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Hyanx-Travel">
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />

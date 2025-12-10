@@ -1,7 +1,8 @@
 {
-  "name": "my-react-app",
-  "homepage": "https://hyaanx.github.io/Hyanx-Travel/",
+  "name": "hyanx-travel",
   "version": "0.0.0",
+  "private": true,
+  "homepage": "https://hyaanx.github.io/Hyanx-Travel",
   "type": "module",
   "scripts": {
     "dev": "vite",
