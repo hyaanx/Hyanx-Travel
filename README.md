@@ -206,32 +206,6 @@ This project uses **Tailwind CSS v4** for comprehensive styling:
 }
 ```
 
-## 🚀 Known Issues & Future Improvements
-
-### Current Issues to Address:
-
-| Issue | Priority | Details |
-|-------|----------|---------|
-| Dynamic Tailwind Classes | 🔴 High | `Hero.jsx` uses dynamic height prop that may not generate CSS |
-| Navigation Elements | 🔴 High | Some components use `<a>` and `<link>` instead of React Router `<Link>` |
-| Navbar Duplication | 🟠 Medium | Navbar appears in both `main.jsx` and individual route files |
-| Hardcoded Positioning | 🟠 Medium | Heavy use of `top-[...]` values makes layout fragile |
-| Content Repetition | 🟠 Medium | Trip cards contain identical hardcoded content |
-| Typos | 🟡 Low | Minor spelling errors ("oppurtunity" → "opportunity") |
-
-### Recommended Improvements:
-
-- [ ] **Fix Hero component:** Use inline styles for dynamic heights instead of Tailwind classes
-- [ ] **Replace navigation:** Change HTML `<link>` and `<a>` to React Router `<Link>` components
-- [ ] **Refactor layout:** Remove hardcoded `top-[...]`, use flexbox/grid instead
-- [ ] **DRY principle:** Extract trip data into array, use `.map()` instead of hardcoded cards
-- [ ] **Accessibility:** Add aria labels, improve semantic HTML, test color contrast
-- [ ] **Form validation:** Implement client-side form validation in ContactArea
-- [ ] **SEO:** Add meta tags and structured data
-- [ ] **API integration:** Connect to backend for dynamic destination and tour data
-- [ ] **Error handling:** Add error boundaries and fallback UI
-- [ ] **Loading states:** Add skeleton loaders for image and data loading
-
 ## 🔧 Configuration Files
 
 | File | Purpose |
@@ -242,18 +216,6 @@ This project uses **Tailwind CSS v4** for comprehensive styling:
 | `tailwind.config.js` | Tailwind CSS customization settings |
 | `index.html` | HTML entry point with root div |
 
-## 🌐 Environment Variables
-
-Currently, no environment variables are required for local development.
-
-### For Future Implementation:
-Create `.env` file with:
-```bash
-VITE_API_URL=https://api.example.com
-VITE_APP_NAME=Hyanx Travel
-```
-
-Access in code with: `import.meta.env.VITE_API_URL`
 
 ## 🤝 Contributing
 
